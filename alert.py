@@ -6,7 +6,7 @@ from winsound import SND_FILENAME,PlaySound
 import platform
 
 
-file = 'files/napalm_death.wav'
+file = 'files/napalm_death.wav' #Input sound file 
 key = config_s.key #using AlphaVantage Bitcoin exchange rate API on sepate module config_s
 url = f'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=USD&apikey={key}'
 
