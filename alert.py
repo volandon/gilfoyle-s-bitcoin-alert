@@ -14,9 +14,7 @@ file = 'files/napalm_death.wav' #Input sound file
 key = config_s.key #using AlphaVantage Bitcoin exchange rate API on sepate module config_s
 url = f'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=BTC&to_currency=USD&apikey={key}'
 
-
-print(PASSWORD)
-
+## Hola Scarlett
 request = requests.get(url).json()
 
 value = float(request["Realtime Currency Exchange Rate"]["5. Exchange Rate"])
